@@ -1,0 +1,73 @@
+/* common css or utilities */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==================== header area */
+.header-section {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(0, 0, 255, 0.2));
+}
+
+/* navigation area */
+.navbar {
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+}
+
+.navbar-brand {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 8px;
+    color: white !important;
+}
+
+.navbar ul li {
+    margin-right: 5px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(241, 241, 241);
+}
+
+.navbar-toggler {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.nav-toggler-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.cart {
+    color: rgb(255, 255, 73) !important;
+}
+
+.search-field {
+    background: rgba(255, 255, 255, 0.938);
+}
+
+.search-btn {
+    color: white;
+    border: 1px solid white;
+}
+
+.search-btn:hover {
+    color: rgb(238, 238, 238);
+}
+
+/* banner area */
+
+.slider-icon {
+    width: 70px;
+}
